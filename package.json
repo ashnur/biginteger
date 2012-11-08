@@ -1,0 +1,19 @@
+{
+  "name": "biginteger",
+  "description": "A big integer library for JavaScript",
+  "main": "./biginteger.js",
+  "author": {
+    "name": "Silent Matt"
+  },
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/bang590/biginteger"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/bang590/biginteger/master/LICENSE"
+    }
+  ]
+}
