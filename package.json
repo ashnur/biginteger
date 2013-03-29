@@ -1,19 +1,34 @@
 {
   "name": "biginteger",
-  "description": "A big integer library for JavaScript",
+  "description": "An arbitrarily-sized-integer library for JavaScript.",
+  "version": "1.0.1",
   "main": "./biginteger.js",
-  "author": {
-    "name": "Silent Matt"
+  "scripts": {
+    "test": "node node-tests/test-biginteger.js",
+    "prepublish": "npm test"
   },
-  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "http://github.com/bang590/biginteger"
+    "url": "https://github.com/silentmatt/javascript-biginteger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ashnur/biginteger/issues"
+  },
+  "keywords": [
+    "bignum",
+    "bigint",
+    "big number",
+    "big integer"
+  ],
+  "author": {
+    "name": "Matthew Crumley",
+    "url": "http://silentmatt.com/"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://raw.github.com/bang590/biginteger/master/LICENSE"
+      "url": "http://opensource.org/licenses/mit-license.php"
     }
   ]
+  "readmeFilename": "README.md"
 }
