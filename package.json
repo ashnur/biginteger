@@ -1,7 +1,7 @@
 {
   "name": "biginteger",
   "description": "An arbitrarily-sized-integer library for JavaScript.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "./biginteger.js",
   "scripts": {
     "test": "node node-tests/test-biginteger.js",
